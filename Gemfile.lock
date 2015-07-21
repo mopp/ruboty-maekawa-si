@@ -1,6 +1,13 @@
 GIT
+  remote: git://github.com/mopp/calil.git
+  revision: fef7da7fc9ed9a646e84d82233a200ce3e2738d2
+  branch: add_libkey
+  specs:
+    calil (0.0.2)
+
+GIT
   remote: git://github.com/mopp/ruboty-maekawa.git
-  revision: 3f0f5306ae7eace16e9158c2011a8c165212d615
+  revision: 3b603c27c3a61427efeb3f84929eb05017cef589
   specs:
     ruboty-maekawa (0.1.1)
       calil
@@ -15,7 +22,6 @@ GEM
       minitest (~> 5.1)
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
-    calil (0.0.2)
     chrono (0.0.6)
       activesupport
     dotenv (2.0.2)
@@ -58,6 +64,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  calil!
   ruboty
   ruboty-alias
   ruboty-cron
