@@ -7,4 +7,5 @@ gem "ruboty-cron"
 gem "ruboty-google_image"
 gem "ruboty-slack"
 gem 'ruboty-maekawa',
-    :github => "mopp/ruboty-maekawa"
+    :github => "mopp/ruboty-maekawa",
+    :branch => "test"
