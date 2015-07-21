@@ -1,5 +1,5 @@
 GIT
-  remote: git@github.com:mopp/ruboty-maekawa.git
+  remote: git://github.com/mopp/ruboty-maekawa.git
   revision: 544a46bcc64c792b6a13ad7fad00fa845f8fca35
   specs:
     ruboty-maekawa (0.1.0)
