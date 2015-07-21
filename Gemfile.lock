@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/mopp/ruboty-maekawa.git
-  revision: 9c25a3bc756a38a9561e7469745e2e93456a30a9
+  revision: f601362397d8f2bac6f8d539338bfa53f131c3f9
   branch: test
   specs:
     ruboty-maekawa (0.1.1)
