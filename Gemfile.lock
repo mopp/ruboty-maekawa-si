@@ -1,7 +1,6 @@
 GIT
   remote: git://github.com/mopp/ruboty-maekawa.git
-  revision: f601362397d8f2bac6f8d539338bfa53f131c3f9
-  branch: test
+  revision: 1da21883780bd0c444661ac71232f5a86b0afde4
   specs:
     ruboty-maekawa (0.1.1)
       calil
