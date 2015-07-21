@@ -1,0 +1,69 @@
+GIT
+  remote: git@github.com:mopp/ruboty-maekawa.git
+  revision: 544a46bcc64c792b6a13ad7fad00fa845f8fca35
+  specs:
+    ruboty-maekawa (0.1.0)
+      calil
+      ruboty
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activesupport (4.1.6)
+      i18n (~> 0.6, >= 0.6.9)
+      json (~> 1.7, >= 1.7.7)
+      minitest (~> 5.1)
+      thread_safe (~> 0.1)
+      tzinfo (~> 1.1)
+    calil (0.0.2)
+    chrono (0.0.6)
+      activesupport
+    dotenv (1.0.2)
+    faraday (0.9.1)
+      multipart-post (>= 1.2, < 3)
+    faraday_middleware (0.10.0)
+      faraday (>= 0.7.4, < 0.10)
+    i18n (0.6.11)
+    json (1.8.1)
+    mem (0.1.5)
+    minitest (5.4.2)
+    multipart-post (2.0.0)
+    ruboty (1.0.4)
+      activesupport
+      bundler
+      dotenv
+      mem
+      slop
+    ruboty-alias (0.0.5)
+      ruboty
+    ruboty-cron (1.0.1)
+      activesupport
+      chrono
+      ruboty (>= 0.2.0)
+    ruboty-google_image (0.0.7)
+      faraday
+      faraday_middleware
+      ruboty
+    ruboty-slack (0.1.12)
+      ruboty (>= 1.0.4)
+      xrc (>= 0.1.8)
+    slop (3.6.0)
+    thread_safe (0.3.4)
+    tzinfo (1.2.2)
+      thread_safe (~> 0.1)
+    xrc (0.1.8)
+      activesupport
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  ruboty
+  ruboty-alias
+  ruboty-cron
+  ruboty-google_image
+  ruboty-maekawa!
+  ruboty-slack
+
+BUNDLED WITH
+   1.10.5
