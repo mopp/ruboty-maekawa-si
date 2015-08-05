@@ -1,4 +1,12 @@
 GIT
+  remote: git://github.com/kanmi/ruboty-lgtm.git
+  revision: 97959cb79b85d48cfacfee339734cd521fa4c0cb
+  specs:
+    ruboty-lgtm (0.0.1)
+      oga
+      ruboty
+
+GIT
   remote: git://github.com/mopp/calil.git
   revision: fef7da7fc9ed9a646e84d82233a200ce3e2738d2
   branch: add_libkey
@@ -22,6 +30,8 @@ GEM
       minitest (~> 5.1)
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
+    ansi (1.5.0)
+    ast (2.1.0)
     chrono (0.0.6)
       activesupport
     dotenv (2.0.2)
@@ -34,6 +44,9 @@ GEM
     mem (0.1.5)
     minitest (5.7.0)
     multipart-post (2.0.0)
+    oga (1.2.1)
+      ast
+      ruby-ll (~> 2.1)
     ruboty (1.2.2)
       activesupport
       bundler
@@ -53,6 +66,9 @@ GEM
     ruboty-slack (0.1.12)
       ruboty (>= 1.0.4)
       xrc (>= 0.1.8)
+    ruby-ll (2.1.2)
+      ansi
+      ast
     slop (4.2.0)
     thread_safe (0.3.5)
     tzinfo (1.2.2)
@@ -69,8 +85,9 @@ DEPENDENCIES
   ruboty-alias
   ruboty-cron
   ruboty-google_image
+  ruboty-lgtm!
   ruboty-maekawa!
   ruboty-slack
 
 BUNDLED WITH
-   1.10.5
+   1.10.6
