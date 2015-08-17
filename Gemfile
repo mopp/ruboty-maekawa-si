@@ -17,3 +17,4 @@ gem 'ruboty-tumblr_image',
     github: "hogelog/ruboty-tumblr_image"
 gem 'ruboty-repeat',
     github: "kanmi/ruboty-repeat"
+
