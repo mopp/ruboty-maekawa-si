@@ -16,6 +16,13 @@ GIT
       ruboty
 
 GIT
+  remote: git://github.com/kanmi/ruboty-repeat.git
+  revision: b72af0757ac8d99da67725e8fc9887452d7c6ada
+  specs:
+    ruboty-repeat (0.0.1)
+      ruboty
+
+GIT
   remote: git://github.com/mopp/calil.git
   revision: fef7da7fc9ed9a646e84d82233a200ce3e2738d2
   branch: add_libkey
@@ -96,6 +103,7 @@ DEPENDENCIES
   ruboty-google_image
   ruboty-lgtm!
   ruboty-maekawa!
+  ruboty-repeat!
   ruboty-slack
   ruboty-tumblr_image!
 
