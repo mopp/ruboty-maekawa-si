@@ -13,3 +13,5 @@ gem 'ruboty-lgtm',
 gem "calil",
     github: "mopp/calil",
     branch: "add_libkey"
+gem 'ruboty-tumblr_image',
+    github: "hogelog/ruboty-tumblr_image"

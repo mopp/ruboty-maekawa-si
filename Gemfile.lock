@@ -1,4 +1,13 @@
 GIT
+  remote: git://github.com/hogelog/ruboty-tumblr_image.git
+  revision: 7200ec042f80e556f680aa4cb9cdca624926d21f
+  specs:
+    ruboty-tumblr_image (0.0.2)
+      faraday
+      faraday_middleware
+      ruboty
+
+GIT
   remote: git://github.com/kanmi/ruboty-lgtm.git
   revision: 97959cb79b85d48cfacfee339734cd521fa4c0cb
   specs:
@@ -44,7 +53,7 @@ GEM
     mem (0.1.5)
     minitest (5.8.0)
     multipart-post (2.0.0)
-    oga (1.2.1)
+    oga (1.2.2)
       ast
       ruby-ll (~> 2.1)
     ruboty (1.2.2)
@@ -88,6 +97,7 @@ DEPENDENCIES
   ruboty-lgtm!
   ruboty-maekawa!
   ruboty-slack
+  ruboty-tumblr_image!
 
 BUNDLED WITH
    1.10.6
