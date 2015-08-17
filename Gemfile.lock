@@ -17,9 +17,9 @@ GIT
 
 GIT
   remote: git://github.com/kanmi/ruboty-repeat.git
-  revision: b72af0757ac8d99da67725e8fc9887452d7c6ada
+  revision: d31b19c0d95ef23024f2a7ef64b75e9300ab4701
   specs:
-    ruboty-repeat (0.0.1)
+    ruboty-repeat (0.0.2)
       ruboty
 
 GIT
