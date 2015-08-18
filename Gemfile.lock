@@ -8,6 +8,13 @@ GIT
       ruboty
 
 GIT
+  remote: git://github.com/kaihar4/ruboty-response.git
+  revision: f13b76b21edcee36057163b8baa8b9c54c8fc9b4
+  specs:
+    ruboty-response (1.0.2)
+      ruboty
+
+GIT
   remote: git://github.com/kanmi/ruboty-lgtm.git
   revision: 97959cb79b85d48cfacfee339734cd521fa4c0cb
   specs:
@@ -23,6 +30,13 @@ GIT
       ruboty
 
 GIT
+  remote: git://github.com/makimoto/ruboty-zoi.git
+  revision: 7ae8495c53f5454459c80e9d8fdbf41d76738cf9
+  specs:
+    ruboty-zoi (1.1.0)
+      ruboty
+
+GIT
   remote: git://github.com/mopp/calil.git
   revision: fef7da7fc9ed9a646e84d82233a200ce3e2738d2
   branch: add_libkey
@@ -35,6 +49,20 @@ GIT
   specs:
     ruboty-maekawa (0.2.2)
       calil
+      ruboty
+
+GIT
+  remote: git://github.com/mzp/ruboty-misawa.git
+  revision: 3a88529dbe1bb3c1bbd780d4c9a8ffd5b83bbcf8
+  specs:
+    ruboty-misawa (0.0.1)
+      ruboty
+
+GIT
+  remote: git://github.com/yoshiori/ruboty-scorekeeper.git
+  revision: 84eba932b54e32c29c8b7258f68648267424d5fb
+  specs:
+    ruboty-scorekeeper (0.0.3)
       ruboty
 
 GEM
@@ -103,9 +131,13 @@ DEPENDENCIES
   ruboty-google_image
   ruboty-lgtm!
   ruboty-maekawa!
+  ruboty-misawa!
   ruboty-repeat!
+  ruboty-response!
+  ruboty-scorekeeper!
   ruboty-slack
   ruboty-tumblr_image!
+  ruboty-zoi!
 
 BUNDLED WITH
    1.10.6

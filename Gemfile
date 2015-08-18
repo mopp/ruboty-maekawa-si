@@ -17,4 +17,11 @@ gem 'ruboty-tumblr_image',
     github: "hogelog/ruboty-tumblr_image"
 gem 'ruboty-repeat',
     github: "kanmi/ruboty-repeat"
-
+gem 'ruboty-scorekeeper',
+    github: "yoshiori/ruboty-scorekeeper"
+gem 'ruboty-misawa',
+    github: "mzp/ruboty-misawa"
+gem 'ruboty-zoi',
+    github: "makimoto/ruboty-zoi"
+gem 'ruboty-response',
+    github: "kaihar4/ruboty-response"
