@@ -1,77 +1,10 @@
 GIT
-  remote: git://github.com/hogelog/ruboty-tumblr_image.git
-  revision: 7200ec042f80e556f680aa4cb9cdca624926d21f
-  specs:
-    ruboty-tumblr_image (0.0.2)
-      faraday
-      faraday_middleware
-      ruboty
-
-GIT
-  remote: git://github.com/kaihar4/ruboty-response.git
-  revision: f13b76b21edcee36057163b8baa8b9c54c8fc9b4
-  specs:
-    ruboty-response (1.0.2)
-      ruboty
-
-GIT
-  remote: git://github.com/kanmi/ruboty-lgtm.git
-  revision: 97959cb79b85d48cfacfee339734cd521fa4c0cb
-  specs:
-    ruboty-lgtm (0.0.1)
-      oga
-      ruboty
-
-GIT
-  remote: git://github.com/kanmi/ruboty-repeat.git
-  revision: d31b19c0d95ef23024f2a7ef64b75e9300ab4701
-  specs:
-    ruboty-repeat (0.0.2)
-      ruboty
-
-GIT
-  remote: git://github.com/makimoto/ruboty-zoi.git
-  revision: 7ae8495c53f5454459c80e9d8fdbf41d76738cf9
-  specs:
-    ruboty-zoi (1.1.0)
-      ruboty
-
-GIT
-  remote: git://github.com/mopp/calil.git
-  revision: fef7da7fc9ed9a646e84d82233a200ce3e2738d2
-  branch: add_libkey
-  specs:
-    calil (0.0.2)
-
-GIT
-  remote: git://github.com/mopp/ruboty-maekawa.git
-  revision: c617d2e39692451d03effb431556bdc3b45d6ef5
-  specs:
-    ruboty-maekawa (0.2.2)
-      calil
-      ruboty
-
-GIT
-  remote: git://github.com/mzp/ruboty-misawa.git
-  revision: 3a88529dbe1bb3c1bbd780d4c9a8ffd5b83bbcf8
-  specs:
-    ruboty-misawa (0.0.1)
-      ruboty
-
-GIT
   remote: git://github.com/r7kamura/ruboty-talk.git
   revision: 6b5af471d0dc8ebf0289e5c44b8bebeaeae3585c
   specs:
     ruboty-talk (0.0.5)
       docomoru (>= 0.0.3)
       ruboty (>= 1.1.0)
-
-GIT
-  remote: git://github.com/yoshiori/ruboty-scorekeeper.git
-  revision: 84eba932b54e32c29c8b7258f68648267424d5fb
-  specs:
-    ruboty-scorekeeper (0.0.3)
-      ruboty
 
 GEM
   remote: https://rubygems.org/
@@ -82,10 +15,6 @@ GEM
       minitest (~> 5.1)
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
-    ansi (1.5.0)
-    ast (2.1.0)
-    chrono (0.0.6)
-      activesupport
     docomoru (0.1.3)
       activesupport
       faraday
@@ -103,9 +32,6 @@ GEM
     mem (0.1.5)
     minitest (5.8.0)
     multipart-post (2.0.0)
-    oga (1.2.2)
-      ast
-      ruby-ll (~> 2.1)
     rack (1.6.4)
     ruboty (1.2.2)
       activesupport
@@ -113,22 +39,9 @@ GEM
       dotenv
       mem
       slop
-    ruboty-alias (0.0.8)
-      ruboty (>= 1.1.1)
-    ruboty-cron (1.0.1)
-      activesupport
-      chrono
-      ruboty (>= 0.2.0)
-    ruboty-google_image (0.0.7)
-      faraday
-      faraday_middleware
-      ruboty
     ruboty-slack (0.1.12)
       ruboty (>= 1.0.4)
       xrc (>= 0.1.8)
-    ruby-ll (2.1.2)
-      ansi
-      ast
     slop (4.2.0)
     thread_safe (0.3.5)
     tzinfo (1.2.2)
@@ -140,21 +53,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  calil!
   ruboty
-  ruboty-alias
-  ruboty-cron
-  ruboty-google_image
-  ruboty-lgtm!
-  ruboty-maekawa!
-  ruboty-misawa!
-  ruboty-repeat!
-  ruboty-response!
-  ruboty-scorekeeper!
   ruboty-slack
   ruboty-talk!
-  ruboty-tumblr_image!
-  ruboty-zoi!
 
 BUNDLED WITH
    1.10.6
