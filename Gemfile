@@ -25,3 +25,5 @@ gem 'ruboty-zoi',
     github: "makimoto/ruboty-zoi"
 gem 'ruboty-response',
     github: "kaihar4/ruboty-response"
+gem 'ruboty-zatsudan',
+    github: "blockgiven/ruboty-zatsudan"

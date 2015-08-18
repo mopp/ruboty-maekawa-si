@@ -1,4 +1,12 @@
 GIT
+  remote: git://github.com/blockgiven/ruboty-zatsudan.git
+  revision: ed74563e73536eee232113a9691d1f460edcd72a
+  specs:
+    ruboty-zatsudan (0.0.1)
+      faraday
+      ruboty
+
+GIT
   remote: git://github.com/hogelog/ruboty-tumblr_image.git
   revision: 7200ec042f80e556f680aa4cb9cdca624926d21f
   specs:
@@ -137,6 +145,7 @@ DEPENDENCIES
   ruboty-scorekeeper!
   ruboty-slack
   ruboty-tumblr_image!
+  ruboty-zatsudan!
   ruboty-zoi!
 
 BUNDLED WITH
